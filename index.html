@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./assets/favicon-32x32.png">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/tiny-slider/2.9.4/tiny-slider.css">
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/tiny-slider/2.9.2/min/tiny-slider.js"></script>
+  
+  <title>Frontend Mentor | Single-page design portfolio</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;700&display=swap" rel="stylesheet">
+
+  <link rel="stylesheet" href="styles.css" />
+  <script defer src="script.js"></script> 
+
+</head>
+<body>
+<!-- Navigation -->
+  <div role="navigation" class="navbar">
+    <img src="./assets/logo.svg" alt="logo">
+    <button class="btn">Free Consultation</button>
+  </div>
+  
+<!-- Hero Section -->
+  <div role="banner" class="hero-section">
+    <div class="hero-heading">
+      <h1>Design solutions made easy</h1>
+      <p>With over ten years of experience in various design disciplines, I’m your one-stop shop for your design needs.</p>
+    </div>
+    <div class="grid-section">
+      <div class="graphic grid-box">
+        <div class="img-box">
+          <img src="./assets/pattern-graphic-design.svg" alt="pattern-graphic img" class="grid-img">
+        </div>
+        <h2>Graphic Design</h2>
+      </div>
+      <div class="ui-ux grid-box grid-box__small">
+        <div class="img-box">
+          <img src="./assets/pattern-ui-ux.svg" alt="ui-ux img" class="grid-img">
+        </div>
+        <h2>UI/UX</h2>
+      </div>
+      <div class="apps grid-box grid-box__small">
+        <div class="img-box">
+          <img src="./assets/pattern-apps.svg" alt="apps img" class="grid-img">
+        </div>
+        <h2>Apps</h2>
+      </div>
+      <div class="photography grid-box ">
+        <div class="img-box">
+          <img src="./assets/pattern-photography.svg" alt="Photography img" class="grid-img">
+        </div>
+        <h2>Photography</h2>
+      </div>
+      <div class="illustrations grid-box grid-box__medium">
+        <div class="img-box">
+          <img src="./assets/pattern-illustrations.svg" alt="Photography img" class="grid-img">
+        </div>
+        <h2>Illustrations</h2>
+      </div>
+      <div class="motion grid-box grid-box__medium">
+        <div class="img-box">
+          <img src="./assets/pattern-motion-graphics.svg" alt="pattern-motion-graphics img" class="grid-img">
+        </div>  
+        <h2>Motion Graphics</h2>
+      </div>
+    </div>
+  </div>
+  
+<!-- Main Section -->
+  <div role="main" class="main-section">
+    <div class="amy-section">
+      <div class="amy-left">
+        <img src="./assets/image-amy.webp" alt="image amy" class="img-amy">
+      </div>
+      <div class="amy-right">
+        <h3>I’m Amy, and I’d love to work on your next project</h3>
+        <p>I love working with others to create beautiful design solutions. I’ve designed everything from brand illustrations 
+          to complete mobile apps. I’m also handy with a camera!
+        </p>
+        <button class="btn btn-amy">Free Consultation</button>
+      </div>
+    </div>
+   
+<!-- work section -->
+    <div class="work-section">
+      <h4>My Work</h4>
+      <div class="work-boxes my-slider" id="lazyload">
+        <div class="work-box mySlides">
+          <img src="./assets/image-slide-1.jpg" alt="slide image" class="img-slide">
+        </div>
+        <div class="work-box mySlides">
+          <img src="./assets/image-slide-2.jpg" alt="slide image" class="img-slide">
+        </div>
+        <div class="work-box mySlides">
+          <img src="./assets/image-slide-3.jpg" alt="slide image" class="img-slide">
+        </div>
+        <div class="work-box mySlides">
+          <img src="./assets/image-slide-4.jpg" alt="slide image" class="img-slide">
+        </div>
+        <div class="work-box mySlides">
+          <img src="./assets/image-slide-5.jpg" alt="slide image" class="img-slide">
+        </div>  
+      </div>
+      <div class="slider-buttons">
+        <button class="slider-btn prev"><img src="./assets/icon-arrow-left.svg" alt="arrow left icon" class="icon-arrow"></button>
+        <button class="slider-btn next"><img src="./assets/icon-arrow-right.svg" alt="arrow right icon" class="icon-arrow"></button>
+      </div>
+    </div>
+<!-- booking section -->
+    <div class="booking-section">
+      <div class="booking-left">
+        <h5>Book a call with me</h5>
+        <p>I’d love to have a chat to see how I can help you. The best first step is for us to discuss your project during a 
+          free consultation. Then we can move forward from there.</p>
+      </div>
+      <div class="booking-right">
+        <button class="btn btn-booking">Free Consultation</button>
+      </div>
+    </div>
+  </div>
+  
+<!-- footer section -->
+  <div role="contentinfo" class="footer-section">
+    <img src="./assets/logo.svg" alt="logo" >
+    <button class="btn btn-footer">Free Consultation</button>
+  </div>
+</body>
+</html>
